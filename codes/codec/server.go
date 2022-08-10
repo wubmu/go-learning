@@ -37,6 +37,5 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
 	rpc.ServeConn(con)
 }
