@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// 声明切片
-	var sli1 []int //nil 切片
+	var sli1 []int //nil slice
 	fmt.Printf("len=%d cap=%d slice=%v\n", len(sli1), cap(sli1), sli1)
 
 	var sli2 = []int{} //空切片
