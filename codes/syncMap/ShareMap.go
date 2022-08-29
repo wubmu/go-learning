@@ -5,7 +5,11 @@ import (
 	cmap "github.com/orcaman/concurrent-map/v2"
 )
 
-func main() {
+type Animal struct {
+	name string
+}
+
+func main4() {
 
 	// 创建一个新的 map.
 	m := cmap.New[string]()
@@ -19,4 +23,5 @@ func main() {
 	// 删除键为“foo”的项
 	m.Remove("foo")
 
+	//TestIterator()
 }

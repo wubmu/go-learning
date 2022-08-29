@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-func main() {
+func main2() {
 	var m sync.Map
 
 	//1. 写入
