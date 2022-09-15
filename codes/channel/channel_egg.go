@@ -18,8 +18,10 @@ func main() {
 		wg.Add(1)
 		go func(num int) {
 			select {
-			case egg := <-eggs:
-				fmt.Printf("People : %d, Get egg: %d\n", num, egg)
+			//case egg := <-eggs:
+			case eggs <- i:
+				//fmt.Printf("People : %d, Get egg: %d\n", num, egg)
+				fmt.Printf("213")
 			default:
 			}
 			wg.Done()
