@@ -1,0 +1,19 @@
+////  这个就是指定proto版本,proto3
+//
+//
+//syntax = "proto3";
+//
+//option "123"
+//package tutorial;
+//
+//message StreamReq {
+//  string name = 1;
+//}
+//
+//message StreamResp {
+//  string greet = 1;
+//}
+//
+//service StreamGreeter {
+//  rpc greet(StreamReq) returns (StreamResp);
+//}
